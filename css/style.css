@@ -111,8 +111,38 @@ h1{
 .img-main{
     position:relative;
 }
+.img-actu{
+    border-radius: 3px;
+}
 .text-main{
     position:absolute;
     color: white;
     text-align: center;
+}
+
+h2 { 
+    color: #a31919;  
+    font-size: 18px; 
+    font-weight: bold; 
+    line-height: 22px; 
+    margin: 14px 0 14px; 
+    border-bottom: 1px solid black;
+    background-color: lightgrey;
+}
+
+.card-body{
+    padding: 0.7rem 1rem;
+}
+.card-title{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #a31919;
+    border-color:lightpink
+}
+.btn-primary:hover{
+    background-color: white;
+    border-color: #a31919;
+    color: #a31919;
 }
