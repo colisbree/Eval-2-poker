@@ -1,0 +1,51 @@
+
+/* ---- CSS concernant tout le site ---- */
+a:link{
+    text-decoration: none;
+}
+
+
+/* ---- CSS Header ---- */
+@media (max-width: 576px) {
+    .header{
+        text-align: center;
+    }
+    .logo img{
+        width:150px;
+        margin-bottom: 5px;
+    }
+    .nom_assoc{
+        font-weight: bold;
+    }
+    .adresse{
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 577px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows:  auto;
+        text-align: center;
+    }
+    .logo {
+        margin: 20px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    .nom_assoc{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        margin: auto;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .adresse{
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin: auto;
+    }
+}
+
