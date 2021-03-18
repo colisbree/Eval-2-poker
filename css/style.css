@@ -105,11 +105,8 @@ h1{
     }
 }
 .image-principale{
-    display: block;
     display: flex;
-    box-align: center;
     align-items: center;
-    box-pack: center;
     justify-content: center;
 }
 .img-main{
@@ -164,4 +161,17 @@ h2 {
     background-color: white;
     border-color: #a31919;
     color: #a31919;
+}
+
+/* ---- footer ---- */
+footer{
+    margin-top: 20px;
+    background-color: #a31919;
+    color:white;
+}
+.text-center{
+    border-top: 1px solid black;
+}
+footer a:link{
+    color: white;
 }
