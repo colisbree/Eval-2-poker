@@ -175,3 +175,13 @@ footer{
 footer a:link{
     color: white;
 }
+
+
+/* ---- bouton ---- */
+btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: dimgray;
+    border-color: gray;
+    box-shadow: 0 0 0 .15rem rgba(107, 107, 107, 0.5);
+}
+

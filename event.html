@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <section>
+        <iv>
             <h2>EVENEMENTS</h2>
 
             
@@ -92,11 +92,41 @@
                         <p class="card-text">Le tournoi se déroulera le samedi 24 avril 2021 à la salle des fêtes du 38 Touvet<br/>
                         Le droit d'entrée est de 16€ pour une inscription sur Internet ou 20€ sur place<br/>
                         Le premier prix qui sera attribué au vainqueur est UN VOYAGE EN GRECE</p>
-                        <a href="#" class="btn btn-primary">Voir le règlement intégral ici</a>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="bouton1">
+                            Voir le réglement intégral ici ...
+                        </button>
                     </div>
                 </div>
             </div>
             
+                  
+            <!-- Modal -->
+            
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">    
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">Règlement</h4>
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>REGLEMENT OFFICIEL DU POKER DE TOURNOI EN ASSOCIATION</h3>
+                                <h5>PRESENTATION</h5>
+                                <p>Le présent règlement est établi à partir de documents émanant de personnes ou associations faisant autorité dans le monde du poker dont notamment Guillaume Gleize, Directeur de Tournoi professionnel et la Tournament Director. Association (TDA) et François Montmirel, éditeur chez Fantasium en octobre 2015 de la version « livre » de ce règlement complété d’un glossaire et d’un quizz. Une relecture a été faite avec François Lascourrèges (Texapoker) en 2019 pour rapprocher ce règlement de celui désormais utilisé dans la majorité des tournois en casino en France.</p>
+                                <h5>1 CONCEPTS GENERAUX</h6>
+                                <h6>1.1 REGLE DE BASE – MISE A DISPOSITION DU REGLEMENT ET ESPRIT DU JEU</h6>
+                                <p>L’organisateur du tournoi a obligation de tenir le ROPTA à disposition des participants</p>
+                                <p>Etc ... ... ... ... ...</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>    
     </main>
@@ -139,6 +169,6 @@
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap-4.4.1.min.js"></script>
 <!-- Our JavaScript -->
-
+<script src="./js/script.js"></script>
 </body>
 </html>
